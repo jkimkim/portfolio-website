@@ -8,7 +8,8 @@ class MyWorks extends Component {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="my-works">
-                                <h2>My Works</h2>
+                                <h1>WHAT I DO</h1>
+                                <h2>What I Do</h2>
                                 <p>Here are some of my works</p>
                             </div>
                         </div>
@@ -36,6 +37,13 @@ class MyWorks extends Component {
                             </div>
                         </div>
                     </div>
+                    <div className="skills">
+                        <h1>Skills</h1>
+                        <li className='skill-1'>skill</li>
+                        <li className='skill-2'>skill</li>
+                        <li className='skill-3'>skill</li>
+                        <li className='skill-4'>skill</li>
+                        </div>
                 </div>
             </React.Fragment>
          );
