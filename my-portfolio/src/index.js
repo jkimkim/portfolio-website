@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navcontainer from './components/nav';
 import Bodytop from './components/bodytop';
 import MyWorks from './components/myWorks';
+import Projects from './components/projects';
 import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <Navcontainer/>
     <Bodytop/>
     <MyWorks/>
+    <Projects/>
   </React.StrictMode>
 );
 
