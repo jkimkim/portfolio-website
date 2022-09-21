@@ -37,6 +37,11 @@ class Bodytop extends Component {
                   <a href="#">
                     <i className="fab fa-linkedin-in"></i>
                   </a>
+                  <div className="body-img-container">
+                    <img
+                        src="https://www.freepnglogos.com/uploads/logo-portfolio-png/logo-portfolio-portfolio-logo-png-0.png"
+                        alt="John Kimiti"/>
+                  </div>
                 </div>
               </div>
             </div>
