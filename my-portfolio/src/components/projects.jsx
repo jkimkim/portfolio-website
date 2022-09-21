@@ -80,6 +80,7 @@ class Projects extends Component {
             </div>
           </div>
         </div>
+        <button className="btn btn-secondary" type="button">view all works</button>
       </React.Fragment>
     );
   }
