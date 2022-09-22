@@ -18,7 +18,7 @@ class Contactme extends Component {
                   </div>
                   <div className="contact-text">
                     <h3>Phone</h3>
-                    <p>Phone</p>
+                    <p>call me</p>
                   </div>
                 </div>
                 <div className="contact-item">
