@@ -18,29 +18,27 @@ class Navcontainer extends Component {
               </div>
               <ul className="nav nav-pills float-md-end">
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link fw-bold active" aria-current="page" href="#">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link fw-semibold" href="#">
                     About
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link fw-semibold" href="#">
                     Portfolio
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item fw-semibold">
                   <a className="nav-link" href="#">
                     Contact
                   </a>
                 </li>
               </ul>
-              <button className="navbar-toggler" type="button">
-                <span className="navbar-toggler-icon"></span>
-                </button>
+              <button className="btn btn-secondary" type="button">Download CV</button>
             </div>
           </div>
         </header>
