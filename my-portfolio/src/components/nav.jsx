@@ -24,7 +24,7 @@ class Navcontainer extends Component {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span ><FontAwesomeIcon icon="fa-solid fa-ellipsis-vertical" /></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
