@@ -8,6 +8,13 @@ import MyWorks from './components/myWorks';
 import Projects from './components/projects';
 import Contactme from './components/contactme';
 import reportWebVitals from './reportWebVitals';
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faDownload, faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faDownload, faCoffee)
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

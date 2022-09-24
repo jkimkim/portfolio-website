@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import logo from "./css/assets/blackjack-1.png";
 import "./css/nav.css";
@@ -42,7 +43,9 @@ class Navcontainer extends Component {
                   </a>
                 </li>
               </ul>
-              <button className="cv-btn" type="button">Download CV</button>
+              <button className="cv-btn px-2" type="button">Download CV 
+              <FontAwesomeIcon icon="fa-solid fa-download" className="ps-2 d-ico" />
+              </button>
             </div>
           </div>
         </header>
