@@ -53,14 +53,14 @@ class Navcontainer extends Component {
                   </a>
                 </li>
               </ul>
+              <button className="cv-btn px-2" type="button">
+                Download CV
+                <FontAwesomeIcon
+                  icon="fa-solid fa-download"
+                  className="ps-2 d-ico"
+                />
+              </button>
             </div>
-            <button className="cv-btn px-2" type="button">
-              Download CV
-              <FontAwesomeIcon
-                icon="fa-solid fa-download"
-                className="ps-2 d-ico"
-              />
-            </button>
           </div>
         </nav>
       </React.Fragment>
