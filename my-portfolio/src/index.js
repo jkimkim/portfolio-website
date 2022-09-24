@@ -12,9 +12,9 @@ import reportWebVitals from './reportWebVitals';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faDownload, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faDownload, faCoffee, faEllipsisVertical } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faDownload, faCoffee)
+library.add(fab, faDownload, faCoffee, faEllipsisVertical)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
