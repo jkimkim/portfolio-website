@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+
+import logo from "./css/assets/blackjack-1.png";
+import "./css/nav.css";
+
 class Navcontainer extends Component {
   state = {};
   render() {
@@ -6,14 +10,14 @@ class Navcontainer extends Component {
       <React.Fragment>
         <header>
           <div className="container">
-            <div className="navbar  navbar-light bg-light">
+            <div className="navbar  navbar-light">
               <div className="branding">
                 <a className="navbar-brand" href="#">
-                  <img
-                    src="https://www.freepnglogos.com/uploads/logo-portfolio-png/logo-portfolio-portfolio-logo-png-0.png"
+                  <img className="logo"
+                    src={logo}
                     alt="logo"
                   />
-                  <span>John Kimiti</span>
+                  <span className="p-name">John Kimiti</span>
                 </a>
               </div>
               <ul className="nav nav-pills float-md-end">
@@ -38,7 +42,7 @@ class Navcontainer extends Component {
                   </a>
                 </li>
               </ul>
-              <button className="btn btn-secondary" type="button">Download CV</button>
+              <button className="cv-btn" type="button">Download CV</button>
             </div>
           </div>
         </header>
