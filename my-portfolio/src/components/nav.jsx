@@ -10,20 +10,35 @@ class Navcontainer extends Component {
     return (
       <React.Fragment>
         <header>
-          <div className="container">
-            <div className="navbar  navbar-light">
+          <div className="navbar navbar-expand-lg">
+            <div className="container-fluid">
               <div className="branding">
                 <a className="navbar-brand" href="#">
-                  <img className="logo"
-                    src={logo}
-                    alt="logo"
-                  />
+                  <img className="logo" src={logo} alt="logo" />
                   <span className="p-name">John Kimiti</span>
                 </a>
               </div>
-              <ul className="nav nav-pills float-md-end">
+              <button
+                className="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span className="navbar-toggler-icon"></span>
+              </button>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul
+                className="nav nav-pills float-md-end "
+              >
                 <li className="nav-item">
-                  <a className="nav-link fw-bold active" aria-current="page" href="#">
+                  <a
+                    className="nav-link fw-bold active"
+                    aria-current="page"
+                    href="#"
+                  >
                     Home
                   </a>
                 </li>
@@ -43,9 +58,15 @@ class Navcontainer extends Component {
                   </a>
                 </li>
               </ul>
-              <button className="cv-btn px-2" type="button">Download CV 
-              <FontAwesomeIcon icon="fa-solid fa-download" className="ps-2 d-ico" />
+              <button className="cv-btn px-2" type="button">
+                Download CV
+                <FontAwesomeIcon
+                  icon="fa-solid fa-download"
+                  className="ps-2 d-ico"
+                />
               </button>
+                </div>
+              
             </div>
           </div>
         </header>
