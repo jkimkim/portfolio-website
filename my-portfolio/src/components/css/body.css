@@ -1,0 +1,16 @@
+.container{
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1200px;
+}
+
+.hellotxt{
+    position: absolute;
+    top: 40px;
+    right: 3;
+    font-size: 9em;
+    pointer-events: none;
+    color: rgba(255, 255, 255, 0.342);
+    z-index: -1;
+    font-weight: bold;
+}

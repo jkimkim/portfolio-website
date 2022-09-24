@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./css/body.css";
 class Bodytop extends Component {
   state = {};
   render() {
@@ -8,7 +9,7 @@ class Bodytop extends Component {
           <div className="row">
             <div className="col-md-6">
               <div className="body-top">
-                <h1>HELLO</h1>
+                <h1 className="hellotxt">HELLO</h1>
                 <h1>
                   I'm <br />
                   <span className="f-name">John</span>{" "}
