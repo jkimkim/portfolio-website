@@ -45,13 +45,13 @@ body {
 }
 
 .nav-link {
-  color: #ffffff;
+  color: rgb(251 251 251 / 82%);
   transition: 0.5s;
 }
 
 .nav-link:hover {
   color: #ffffff;
-  background: #ffffff17;
+  background: #ffffff00;
 }
 
 .container-fluid {
@@ -71,6 +71,16 @@ body {
     background: #615e5e2a;
     color: #ffffff;
     transition: 0.5s;
+}
+
+.active{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ffffff;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 993px) {
@@ -114,7 +124,7 @@ body {
   }
 
   .nav-link {
-    color: #ffffff;
+    color: rgb(251 251 251 / 82%);
     transition: 0.5s;
   }
   #navbarNav {
