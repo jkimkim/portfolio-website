@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import logo from "./css/assets/blackjack-1.png";
 import "./css/body.css";
 // import Bg from "./css/assets/bg1.png"
 class Bodytop extends Component {
@@ -42,8 +43,8 @@ class Bodytop extends Component {
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                   <div className="body-img-container">
-                    <img
-                      src="https://www.freepnglogos.com/uploads/logo-portfolio-png/logo-portfolio-portfolio-logo-png-0.png"
+                    <img className="john"
+                      src={logo}
                       alt="John Kimiti"
                     />
                   </div>
