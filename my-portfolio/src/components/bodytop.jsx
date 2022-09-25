@@ -10,6 +10,7 @@ class Bodytop extends Component {
             <div className="col-md-6">
               <div className="body-top">
                 <h1 className="hellotxt">HELLO</h1>
+                <div className="aboutme">
                 <h1>
                   I'm <br />
                   <span className="f-name">John</span>{" "}
@@ -26,8 +27,8 @@ class Bodytop extends Component {
                 </div>
                 <div className="social">
                   <h3>Follow Me</h3>
-                  <a href="#" >
-                    <i className="fab fa-facebook-f" alt= 'facebook'></i>
+                  <a href="#">
+                    <i className="fab fa-facebook-f" alt="facebook"></i>
                   </a>
                   <a href="#">
                     <i className="fab fa-twitter"></i>
@@ -40,9 +41,11 @@ class Bodytop extends Component {
                   </a>
                   <div className="body-img-container">
                     <img
-                        src="https://www.freepnglogos.com/uploads/logo-portfolio-png/logo-portfolio-portfolio-logo-png-0.png"
-                        alt="John Kimiti"/>
+                      src="https://www.freepnglogos.com/uploads/logo-portfolio-png/logo-portfolio-portfolio-logo-png-0.png"
+                      alt="John Kimiti"
+                    />
                   </div>
+                </div>
                 </div>
               </div>
             </div>
