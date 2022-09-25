@@ -16,3 +16,15 @@ code {
   background-image: url(components/css/assets/bg1.png);
   background-size: cover;
 }
+
+.body-img-container{
+  background-color: #00ADB5;
+  content: "";
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  transform: rotate(-45deg);
+  top: 12rem;
+  right: 0;
+  border-radius: 2rem;
+}
