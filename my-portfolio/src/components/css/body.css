@@ -1,3 +1,6 @@
+*{
+    --bs-gutter-x: 1.5rem
+}
 .container{
     margin: 0 auto;
     padding: 0 10px;
@@ -6,11 +9,16 @@
 
 .hellotxt{
     position: absolute;
-    top: 40px;
-    right: 3;
+    top: 6rem;
+    right: 3.25em;
     font-size: 9em;
     pointer-events: none;
     color: rgba(255, 255, 255, 0.342);
     z-index: -1;
     font-weight: bold;
+}
+
+body{
+    background-color: rgb(29, 27, 27);
+    color: antiquewhite;
 }
