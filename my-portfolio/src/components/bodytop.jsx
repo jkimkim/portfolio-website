@@ -16,7 +16,7 @@ class Bodytop extends Component {
                   <span className="f-name">John</span>{" "}
                   <span className="l-name"> Kimiti</span>
                 </h1>
-                <p>Full Stack Web Developer</p>
+                <p className="p-description">Full Stack Web Developer</p>
                 <div className="btns">
                   <a href="#" className="btn btn-primary">
                     Hire Me
