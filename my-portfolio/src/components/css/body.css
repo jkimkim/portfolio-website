@@ -19,7 +19,20 @@
 }
 
 body{
-    background-color: rgb(29, 27, 27);
+    background-color: #1D222A;
     color: antiquewhite;
 }
 
+.aboutme{
+    padding-top: 10.5rem;
+}
+
+.f-name{
+    text-decoration: underline;
+    text-decoration-color: #00ADB5;
+    text-underline-offset: 1rem;
+}
+
+.l-name{
+    color: #00ADB5;
+}

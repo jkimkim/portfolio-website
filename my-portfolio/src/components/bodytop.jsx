@@ -11,7 +11,7 @@ class Bodytop extends Component {
               <div className="body-top">
                 <h1 className="hellotxt">HELLO</h1>
                 <div className="aboutme">
-                <h1>
+                <h1 className="fw-bold">
                   I'm <br />
                   <span className="f-name">John</span>{" "}
                   <span className="l-name"> Kimiti</span>
