@@ -34,3 +34,7 @@ body{
 .l-name{
     color: #00ADB5;
 }
+
+.p-description{
+    padding: 1rem 1rem 0 0;
+}
