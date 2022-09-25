@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import "./css/body.css";
+// import Bg from "./css/assets/bg1.png"
 class Bodytop extends Component {
   state = {};
   render() {
     return (
       <React.Fragment>
-        <div className="container">
+        <div className="container bg">
+        {/* <img className="bg" src={Bg} alt="background" /> */}
           <div className="row">
             <div className="col-md-6">
               <div className="body-top">

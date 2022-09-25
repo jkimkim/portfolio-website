@@ -38,3 +38,8 @@ body{
 .p-description{
     padding: 1rem 1rem 0 0;
 }
+
+.bg{
+    background-image: url(assets/bg1.png);
+    background-size: cover;
+}
