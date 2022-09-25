@@ -47,6 +47,7 @@ body {
 .nav-link {
   color: rgb(251 251 251 / 82%);
   transition: 0.5s;
+  font-weight: bold;
 }
 
 .nav-link:hover {
@@ -75,12 +76,12 @@ body {
 
 .active{
     color: #ffffff;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .navbar-nav .nav-link.active {
     color: #ffffff;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 @media screen and (max-width: 993px) {
