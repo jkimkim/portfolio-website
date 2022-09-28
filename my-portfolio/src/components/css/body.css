@@ -113,3 +113,8 @@ body{
     text-align: center;
 }
 
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -14,20 +14,15 @@ class Bodytop extends Component {
               <div className="body-top">
                 <h1 className="hellotxt">HELLO</h1>
                 <div className="aboutme">
+                  <div className="description">
                   <h1 className="fw-bold">
                     I'm <br />
                     <span className="f-name">John</span>{" "}
                     <span className="l-name"> Kimiti</span>
                   </h1>
                   <p className="p-description">Full Stack Web Developer</p>
-                  <div className="btns">
-                    <a href="#" className="btn btn-primary">
-                      Hire Me
-                    </a>
-                    <a href="#" className="btn btn-outline-primary">
-                      View Portfolio
-                    </a>
-                  </div> 
+                  </div>
+                  
                   <div className="john-img-social">
                     <div className="body-img-container">
                       <img className="john" src={logo} alt="John Kimiti" />
