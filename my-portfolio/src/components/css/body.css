@@ -104,10 +104,21 @@ body{
     color: #00ADB5;
 }
 
-.fab {
+.icons a {
     font-size: 25px;
-    color: antiquewhite;
-    background-color: #1D222A;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #1a89bc, #606966c5);
+    color: linen;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    transition: 1s;
+}
+
+.icons a:hover {
+    background: linear-gradient(45deg, #1a89bc, #606966c5);
+    transform: rotate(360deg) scale(1.2);
 }
 
 /* Language: css */
