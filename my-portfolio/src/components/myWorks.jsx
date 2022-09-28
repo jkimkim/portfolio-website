@@ -9,12 +9,10 @@ class MyWorks extends Component {
                         <div className="col-md-12">
                             <div className="my-works">
                                 <h1>WHAT I DO</h1>
-                                <h2>What I Do</h2>
-                                <p>Here are some of my works</p>
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row bg-2">
                         <div className="col-md-4">
                             <div className="work">
                                 <img src="https://www.freepnglogos.com/uploads/logo-portfolio-png/logo-portfolio-portfolio-logo-png-0.png" alt="work"/>
