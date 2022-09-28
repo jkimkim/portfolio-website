@@ -25,6 +25,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 2rem;
 }
 
 .f-name{
@@ -48,6 +49,7 @@ body{
     height: 15rem;
     transform: rotate(-45deg);
     border-radius: 2rem;
+    margin: 0 0 2rem 2rem;
   }
 
 .john-img-social{
@@ -132,5 +134,5 @@ body{
     margin-bottom: 25px;
 }
 .empty{
-    margin-left: 6rem;
+    margin-left: 12rem;
 }
