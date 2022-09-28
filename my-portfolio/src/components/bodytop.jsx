@@ -27,32 +27,30 @@ class Bodytop extends Component {
                     <a href="#" className="btn btn-outline-primary">
                       View Portfolio
                     </a>
-                  </div>
-                  <div className="">
+                  </div> 
+                  <div className="john-img-social">
                     <div className="body-img-container">
                       <img className="john" src={logo} alt="John Kimiti" />
                     </div>
                     <div className="social">
-                    <h3>Follow Me</h3>
-                    <div className="line"></div>
-                    <div className="icons">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" alt="facebook"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-instagram"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in"></i>
-                    </a>
+                      <h3>Follow Me</h3>
+                      <div className="line"></div>
+                      <div className="icons">
+                        <a href="#">
+                          <i className="fab fa-facebook-f" alt="facebook"></i>
+                        </a>
+                        <a href="#">
+                          <i className="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                          <i className="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                          <i className="fab fa-linkedin-in"></i>
+                        </a>
+                      </div>
                     </div>
-                    
-                    </div>
-                    
-                  </div>
+                  </div>                
                 </div>
               </div>
             </div>

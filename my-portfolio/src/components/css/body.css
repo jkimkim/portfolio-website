@@ -56,11 +56,11 @@ body{
     rotate: 45deg;
   }
 
-.line {
+  .line {
     background-color: #00ADB5;
     margin: 1rem;
-    height: 4px;
-    width: 150px;
+    width: 4px;
+    height: 150px;
     border-radius: 4px;
 }
 
@@ -72,17 +72,19 @@ body{
     position: absolute;
     top: 15.3rem;
     right: -8rem;
-    rotate: 90deg;
+    /* rotate: 90deg; */
     height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .icons{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     gap: 10px;
 }
 
