@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import logo from "./css/assets/blackjack-1.png";
 import "./css/body.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub, faTwitter, faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons';
+
 // import Bg from "./css/assets/bg1.png"
 class Bodytop extends Component {
   state = {};
@@ -33,16 +36,16 @@ class Bodytop extends Component {
                       <div className="line"></div>
                       <div className="icons">
                         <a href="#">
-                          <i className="fab fa-facebook-f" alt="facebook"></i>
+                        <FontAwesomeIcon icon="fa-brands fa-facebook" />
                         </a>
                         <a href="#">
-                          <i className="fab fa-twitter"></i>
+                        <FontAwesomeIcon icon="fa-brands fa-twitter" />
                         </a>
                         <a href="#">
-                          <i className="fab fa-instagram"></i>
+                        <FontAwesomeIcon icon="fa-brands fa-instagram" />
                         </a>
                         <a href="#">
-                          <i className="fab fa-linkedin-in"></i>
+                        <FontAwesomeIcon icon="fa-brands fa-linkedin-in" />
                         </a>
                       </div>
                     </div>
