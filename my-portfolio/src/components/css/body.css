@@ -40,7 +40,7 @@ body{
 }
 
 .body-img-container{
-    background-color: #00ADB5;
+    background: linear-gradient(30deg, rgb(0 173 181) 5%, rgb(0 212 255 / 0%) 100%);
     content: "";
     position: absolute;
     width: 15rem;
@@ -56,4 +56,3 @@ body{
     rotate: 45deg;
   }
 
-  
