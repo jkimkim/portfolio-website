@@ -15,22 +15,16 @@ class MyWorks extends Component {
                     <div className="row bg-2">
                         <div className="col-md-4">
                             <div className="work">
-                                <img src="https://www.freepnglogos.com/uploads/logo-portfolio-png/logo-portfolio-portfolio-logo-png-0.png" alt="work"/>
-                                <h3>Work 1</h3>
                                 <p>Some text about the work</p>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="work">
-                                <img src="https://www.freepnglogos.com/uploads/logo-portfolio-png/logo-portfolio-portfolio-logo-png-0.png" alt="work"/>
-                                <h3>Work 2</h3>
                                 <p>Some text about the work</p>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="work">
-                                <img src="https://www.freepnglogos.com/uploads/logo-portfolio-png/logo-portfolio-portfolio-logo-png-0.png" alt="work"/>
-                                <h3>Work 3</h3>
                                 <p>Some text about the work</p>
                             </div>
                         </div>

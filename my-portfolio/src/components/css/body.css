@@ -319,6 +319,14 @@ body{
     padding: 1rem 0 1rem 0;
 }
 
+.work{
+    background-color: #222831;
+    width: 200px;
+    height: 200px;
+    box-shadow: #0c0d0e;
+    border-radius: 5px;
+}
+
 /* column */
 .column{
     display: flex;
@@ -326,4 +334,9 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+}
+
+.work p{
+    text-align: center;
+    text-justify: inter-word;
 }
