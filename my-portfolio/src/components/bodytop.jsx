@@ -27,8 +27,9 @@ class Bodytop extends Component {
                     <div className="body-img-container">
                       <img className="john" src={logo} alt="John Kimiti" />
                     </div>
+                    <div className="empty"></div>
                     <div className="social">
-                      <h3 className="follow">Follow Me</h3>
+                      <h6 className="follow">Follow Me</h6>
                       <div className="line"></div>
                       <div className="icons">
                         <a href="#">

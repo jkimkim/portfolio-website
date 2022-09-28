@@ -6,10 +6,10 @@
 }
 
 .hellotxt{
-    position: absolute;
+    /* position: absolute; */
     top: 6rem;
     right: 3;
-    font-size: 9em;
+    font-size: 15em;
     pointer-events: none;
     color: rgba(255, 255, 255, 0.342);
     z-index: -1;
@@ -22,7 +22,6 @@ body{
 }
 
 .aboutme{
-    padding-top: 10.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -84,6 +83,9 @@ body{
     align-items: center;
     flex-direction: column;
     margin-left: 5rem;
+    position: absolute;
+    right: -6rem;
+    top: -15rem;
 }
 
 .icons{
@@ -122,6 +124,13 @@ body{
 .description{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
+.follow{
+    transform: rotate(90deg);
+    margin-bottom: 25px;
+}
+.empty{
+    margin-left: 6rem;
+}
