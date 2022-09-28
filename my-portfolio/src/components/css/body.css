@@ -160,10 +160,42 @@ body{
     font-weight: bold;
     /* text-align: center; */
     padding: 1rem;
+    padding-top: 2rem;
 }
 
 .quote-text p{
     font-size: 2rem;
     text-align: center;
+}
+
+.quote-text p::before{
+    content: open-quote;
+}
+
+.quote-text p::after{
+    content: close-quote;
+}
+
+.quote-text p::before, .quote-text p::after{
+    font-size: 3rem;
+}
+
+.my-works{
+    background-color: #1D222A;
+    color: antiquewhite;
+    padding: 1rem 0 1rem 0;
+}
+
+.quote-author{
+    text-align: right;
+    padding-right: 1rem;
     padding-bottom: 6rem;
 }
+
+.quote-author{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    color: #a1a4a8;
+}
+
+/* Language: css */
