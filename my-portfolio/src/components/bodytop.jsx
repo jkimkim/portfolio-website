@@ -48,6 +48,12 @@ class Bodytop extends Component {
                     </div>
                   </div>                
                 </div>
+                <div className="quote">
+                  <p className="quote-text">
+                    "The only way to do great work is to love what you do."
+                  </p>
+                  <p className="quote-author">Steve Jobs</p>
+                </div>
               </div>
             </div>
           </div>

@@ -148,3 +148,14 @@ body{
 .empty{
     margin-left: 12rem;
 }
+
+.quote{
+    background-image: url(assets/BG.svg);
+}
+
+.quote-text{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+}
