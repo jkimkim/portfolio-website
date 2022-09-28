@@ -56,22 +56,58 @@ body{
     rotate: 45deg;
   }
 
-.line{
+.line {
     background-color: #00ADB5;
     margin: 1rem;
-    height: 5px;
+    height: 4px;
+    width: 150px;
+    border-radius: 4px;
 }
 
 .aboutme{
     position: relative;
 }
 
-.social{
+.social {
     position: absolute;
-    top: 0;
-    bottom: 0%;
-    right: 0%;
+    top: 15.3rem;
+    right: -8rem;
     rotate: 90deg;
     height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon{
+    width: 2rem;
+    height: 2rem;
+    color: #00ADB5;
+}
+
+.fab {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* Language: css */
+
+/* Path: my-portfolio\src\components\css\footer.css */
+
+.footer{
+    background-color: #1D222A;
+    color: antiquewhite;
+    padding: 1rem 0 1rem 0;
+}
+
+.footer-text{
+    text-align: center;
 }
 
