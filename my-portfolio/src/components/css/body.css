@@ -83,6 +83,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-left: 5rem;
 }
 
 .icons{
