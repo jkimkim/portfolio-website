@@ -105,8 +105,9 @@ body{
 }
 
 .fab {
-    font-weight: bold;
     font-size: 25px;
+    color: antiquewhite;
+    background-color: #1D222A;
 }
 
 /* Language: css */
