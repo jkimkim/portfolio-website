@@ -12,10 +12,10 @@ import reportWebVitals from './reportWebVitals';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faDownload, faCoffee, faEllipsisVertical } from '@fortawesome/free-solid-svg-icons'
+import { faDownload, faEllipsisVertical,faMobileScreen} from '@fortawesome/free-solid-svg-icons'
 import {faFacebook, faGithub, faLinkedin, faTwitter, faInstagram} from '@fortawesome/free-brands-svg-icons'
 
-library.add(fab, faDownload, faCoffee, faEllipsisVertical, faFacebook, faGithub, faLinkedin, faTwitter, faInstagram)
+library.add(fab, faDownload, faMobileScreen, faEllipsisVertical, faFacebook, faGithub, faLinkedin, faTwitter, faInstagram)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

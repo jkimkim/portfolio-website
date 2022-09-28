@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons';
+import {faMobileScreen} from '@fortawesome/free-solid-svg-icons';
 class MyWorks extends Component {
     state = {  }
     render() { 
@@ -20,7 +23,8 @@ class MyWorks extends Component {
                         </div>
                         <div className="col-md-4">
                             <div className="work">
-                                <p>Some text about the work</p>
+                            <FontAwesomeIcon icon="fa-solid fa-mobile-screen" />
+                                <p>Mobile app dev</p>
                             </div>
                         </div>
                         <div className="col-md-4">
