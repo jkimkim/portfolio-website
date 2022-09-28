@@ -69,9 +69,6 @@ body{
 }
 
 .social {
-    position: absolute;
-    top: 15.3rem;
-    right: -8rem;
     /* rotate: 90deg; */
     height: max-content;
     display: flex;
@@ -118,3 +115,4 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+
