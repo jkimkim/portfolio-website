@@ -56,3 +56,22 @@ body{
     rotate: 45deg;
   }
 
+.line{
+    background-color: #00ADB5;
+    margin: 1rem;
+    height: 5px;
+}
+
+.aboutme{
+    position: relative;
+}
+
+.social{
+    position: absolute;
+    top: 0;
+    bottom: 0%;
+    right: 0%;
+    rotate: 90deg;
+    height: max-content;
+}
+

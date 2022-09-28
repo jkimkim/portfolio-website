@@ -10,7 +10,7 @@ class Bodytop extends Component {
         <div className="container bg">
           {/* <img className="bg" src={Bg} alt="background" /> */}
           <div className="row">
-            <div className="col-md-6">
+            <div className="">
               <div className="body-top">
                 <h1 className="hellotxt">HELLO</h1>
                 <div className="aboutme">
@@ -28,11 +28,14 @@ class Bodytop extends Component {
                       View Portfolio
                     </a>
                   </div>
-                  <div className="social">
+                  <div className="">
                     <div className="body-img-container">
                       <img className="john" src={logo} alt="John Kimiti" />
                     </div>
+                    <div className="social">
                     <h3>Follow Me</h3>
+                    <div className="line"></div>
+                    <div className="icons">
                     <a href="#">
                       <i className="fab fa-facebook-f" alt="facebook"></i>
                     </a>
@@ -45,6 +48,10 @@ class Bodytop extends Component {
                     <a href="#">
                       <i className="fab fa-linkedin-in"></i>
                     </a>
+                    </div>
+                    
+                    </div>
+                    
                   </div>
                 </div>
               </div>
