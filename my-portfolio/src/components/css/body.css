@@ -23,6 +23,9 @@ body{
 
 .aboutme{
     padding-top: 10.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .f-name{
