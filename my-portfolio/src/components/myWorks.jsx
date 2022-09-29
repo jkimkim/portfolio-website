@@ -18,19 +18,27 @@ class MyWorks extends Component {
                     </div>
                     <div className="row bg-2">
                         <div className="col-md-4">
-                            <div className="work">
-                                <p>Some text about the work</p>
+                            <div className="work flex">
+                            <FontAwesomeIcon icon="fa-solid fa-code" className='skill-icon'/>
+                                <p>Web dev</p>
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="work">
-                            <FontAwesomeIcon icon="fa-solid fa-mobile-screen" />
+                            <div className="work flex">
+                            <FontAwesomeIcon icon="fa-solid fa-mobile-screen" className='skill-icon' />
                                 <p>Mobile app dev</p>
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="work">
-                                <p>Some text about the work</p>
+                            <div className="work flex">
+                            <FontAwesomeIcon icon="fa-solid fa-layer-group" className='skill-icon'/>
+                                <p>Web Design</p>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="work flex">
+                                <h2 className='skill-icon'>UI/UX</h2>
+                                <p>UI/UX design</p>
                             </div>
                         </div>
                     </div>
