@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons';
 import {faMobileScreen} from '@fortawesome/free-solid-svg-icons';
+import web1 from "./css/assets/web1.svg";
+
 class MyWorks extends Component {
     state = {  }
     render() { 
