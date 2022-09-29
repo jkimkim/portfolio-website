@@ -42,12 +42,60 @@ class MyWorks extends Component {
                             </div>
                         </div>
                     </div>
+                    <div className="side-rec">
+                        <div className="inner-rec"></div>
+                    </div>
                     <div className="skills">
                         <h1>Skills</h1>
-                        <li className='skill-1'>skill</li>
-                        <li className='skill-2'>skill</li>
-                        <li className='skill-3'>skill</li>
-                        <li className='skill-4'>skill</li>
+                        <div className="skills-bar">
+                            <div className="bar">
+                                <div className="info">
+                                    <span>React</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="skills-bar">
+                            <div className="bar">
+                                <div className="info">
+                                    <span>HTML</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="skills-bar">
+                            <div className="bar">
+                                <div className="info">
+                                    <span>CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="skills-bar">
+                            <div className="bar">
+                                <div className="info">
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="skills-bar">
+                            <div className="bar">
+                                <div className="info">
+                                    <span>Java</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="skills-bar">
+                            <div className="bar">
+                                <div className="info">
+                                    <span>Python</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="skills-bar">
+                            <div className="bar">
+                                <div className="info">
+                                    <span>MySQL</span>
+                                </div>
+                            </div>
+                        </div>
                         </div>
                 </div>
             </React.Fragment>
