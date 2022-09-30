@@ -1,0 +1,8 @@
+.skills-bar{
+    max-width: 600px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
