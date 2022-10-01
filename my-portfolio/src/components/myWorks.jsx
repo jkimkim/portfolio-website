@@ -52,43 +52,43 @@ class MyWorks extends Component {
                                 <div className="info">
                                     <span>HTML</span>
                                     </div>
-                                    <div className="progress-line"><span></span></div>
+                                    <div className="progress-line html"><span></span></div>
                             </div>
                             <div className="bar">
                                 <div className="info">
                                     <span>CSS</span>
                                     </div>
-                                    <div className="progress-line"><span></span></div>
+                                    <div className="progress-line css"><span></span></div>
                             </div>
                             <div className="bar">
                                 <div className="info">
                                     <span>JavaScript</span>
                                     </div>
-                                    <div className="progress-line"><span></span></div>
+                                    <div className="progress-line js"><span></span></div>
                             </div>
                             <div className="bar">
                                 <div className="info">
                                     <span>Java</span>
                                     </div>
-                                    <div className="progress-line"><span></span></div>
+                                    <div className="progress-line java"><span></span></div>
                             </div>
                             <div className="bar">
                                 <div className="info">
                                     <span>MySQL</span>
                                     </div>
-                                    <div className="progress-line"><span></span></div>
+                                    <div className="progress-line sql"><span></span></div>
                             </div>
                             <div className="bar">
                                 <div className="info">
                                     <span>React</span>
                                     </div>
-                                    <div className="progress-line"><span></span></div>
+                                    <div className="progress-line react"><span></span></div>
                             </div>
                             <div className="bar">
                                 <div className="info">
                                     <span>UI/UX</span>
                                     </div>
-                                    <div className="progress-line"><span></span></div>
+                                    <div className="progress-line ux"><span></span></div>
                             </div>
                         </div>
                         </div>
