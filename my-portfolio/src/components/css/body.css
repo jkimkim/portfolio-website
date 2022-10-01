@@ -316,7 +316,7 @@ body{
 .bg-2{
     background-color: #1D222A;
     color: antiquewhite;
-    padding: 1rem 0 1rem 0;
+    padding: 1rem 0 3rem 0;
 }
 
 .work{
@@ -529,6 +529,10 @@ body{
     position: absolute;
     background-color: #00ADB5;
     border-radius: 10px;
+    border-radius: 10px;
+    transform-origin: left;
+    transform: scaleX(0);
+    animation: animate 1s 1s cubic-bezier(0.075, 0.82, 0.165, 1)forwards;
 }
 
 @keyframes animate {
