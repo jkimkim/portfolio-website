@@ -51,50 +51,45 @@ class MyWorks extends Component {
                         <div className="skills-bar">
                             <div className="bar">
                                 <div className="info">
-                                    <span>React</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="skills-bar">
-                            <div className="bar">
-                                <div className="info">
                                     <span>HTML</span>
-                                </div>
+                                    </div>
+                                    <div className="progress-line"><span></span></div>
                             </div>
-                        </div>
-                        <div className="skills-bar">
                             <div className="bar">
                                 <div className="info">
                                     <span>CSS</span>
-                                </div>
+                                    </div>
+                                    <div className="progress-line"><span></span></div>
                             </div>
-                        </div>
-                        <div className="skills-bar">
                             <div className="bar">
                                 <div className="info">
                                     <span>JavaScript</span>
-                                </div>
+                                    </div>
+                                    <div className="progress-line"><span></span></div>
                             </div>
-                        </div>
-                        <div className="skills-bar">
                             <div className="bar">
                                 <div className="info">
                                     <span>Java</span>
-                                </div>
+                                    </div>
+                                    <div className="progress-line"><span></span></div>
                             </div>
-                        </div>
-                        <div className="skills-bar">
-                            <div className="bar">
-                                <div className="info">
-                                    <span>Python</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="skills-bar">
                             <div className="bar">
                                 <div className="info">
                                     <span>MySQL</span>
-                                </div>
+                                    </div>
+                                    <div className="progress-line"><span></span></div>
+                            </div>
+                            <div className="bar">
+                                <div className="info">
+                                    <span>React</span>
+                                    </div>
+                                    <div className="progress-line"><span></span></div>
+                            </div>
+                            <div className="bar">
+                                <div className="info">
+                                    <span>UI/UX</span>
+                                    </div>
+                                    <div className="progress-line"><span></span></div>
                             </div>
                         </div>
                         </div>
