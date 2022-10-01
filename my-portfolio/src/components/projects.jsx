@@ -55,8 +55,8 @@ class Projects extends Component {
                   src="https://www.freepnglogos.com/uploads/logo-portfolio-png/logo-portfolio-portfolio-logo-png-0.png"
                   alt="work"
                 />
-                <h3>Work 2</h3>
-                <p>Some text about the work</p>
+                <h3>Blackjack</h3>
+                <p>simple JS blackjack game</p>
               </div>
             </div>
             <div className="col-md-4">
@@ -65,8 +65,8 @@ class Projects extends Component {
                   src="https://www.freepnglogos.com/uploads/logo-portfolio-png/logo-portfolio-portfolio-logo-png-0.png"
                   alt="work"
                 />
-                <h3>Work 3</h3>
-                <p>Some text about the work</p>
+                <h3>leeds tracker</h3>
+                <p>chrome extension to track leads</p>
               </div>
             </div>
           </div>

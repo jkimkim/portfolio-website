@@ -588,11 +588,15 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     min-height: 400px;
     grid-gap: 4rem;
+    background-color: #1d222a;
+    padding: 2rem;
 }
 
 .view-works{
     display: flex;
     justify-content: center;
+    background-color: #1d222a;
+    padding-bottom: 4rem;
 }
 
 .proj-pic{
@@ -623,3 +627,15 @@ body{
     margin: 2rem;
 }
 
+/* contact section */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #00ADB5;
+    width: 100%;
+    height: 100%;
+}
