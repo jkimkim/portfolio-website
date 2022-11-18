@@ -35,16 +35,16 @@ class Bodytop extends Component {
                       <h6 className="follow">Follow Me</h6>
                       <div className="line"></div>
                       <div className="icons">
-                        <a href="#">
+                        <a href="https://www.facebook.com/profile.php?id=100023318902564">
                         <FontAwesomeIcon icon="fa-brands fa-facebook" />
                         </a>
-                        <a href="#">
+                        <a href="https://twitter.com/Johnklm21">
                         <FontAwesomeIcon icon="fa-brands fa-twitter" />
                         </a>
-                        <a href="#">
+                        <a href="https://www.instagram.com/j_kimtech/">
                         <FontAwesomeIcon icon="fa-brands fa-instagram" />
                         </a>
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/john-kimiti-9322201a2/">
                         <FontAwesomeIcon icon="fa-brands fa-linkedin-in" />
                         </a>
                       </div>
