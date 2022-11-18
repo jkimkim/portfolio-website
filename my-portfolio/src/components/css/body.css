@@ -646,7 +646,7 @@ body{
 }
 
 .proj .col-md-4 .proj-pic:hover{
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 /* .proj .col-md-4 .proj-pic::before{
