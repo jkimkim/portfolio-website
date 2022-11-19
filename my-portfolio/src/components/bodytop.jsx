@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import logo from "./css/assets/blackjack-1.png";
 import "./css/body.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faTwitter, faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 // import Bg from "./css/assets/bg1.png"
 class Bodytop extends Component {
