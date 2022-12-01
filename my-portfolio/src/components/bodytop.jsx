@@ -65,3 +65,5 @@ class Bodytop extends Component {
   }
 }
 export default Bodytop;
+
+// Path: my-portfolio\src\components\bodytop.jsx
