@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import logo from "./css/assets/blackjack-1.png";
 import "./css/body.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faTwitter, faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 // import Bg from "./css/assets/bg1.png"
 class Bodytop extends Component {
@@ -35,16 +34,16 @@ class Bodytop extends Component {
                       <h6 className="follow">Follow Me</h6>
                       <div className="line"></div>
                       <div className="icons">
-                        <a href="#">
+                        <a href="https://www.facebook.com/profile.php?id=100023318902564">
                         <FontAwesomeIcon icon="fa-brands fa-facebook" />
                         </a>
-                        <a href="#">
+                        <a href="https://twitter.com/Johnklm21">
                         <FontAwesomeIcon icon="fa-brands fa-twitter" />
                         </a>
-                        <a href="#">
+                        <a href="https://www.instagram.com/j_kimtech/">
                         <FontAwesomeIcon icon="fa-brands fa-instagram" />
                         </a>
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/john-kimiti-9322201a2/">
                         <FontAwesomeIcon icon="fa-brands fa-linkedin-in" />
                         </a>
                       </div>
@@ -66,3 +65,5 @@ class Bodytop extends Component {
   }
 }
 export default Bodytop;
+
+// Path: my-portfolio\src\components\bodytop.jsx

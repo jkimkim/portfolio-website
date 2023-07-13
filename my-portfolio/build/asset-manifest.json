@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7d42330.css",
+    "main.js": "/static/js/main.92dde90c.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/bg1.png": "/static/media/bg1.fd41271bbe8bd6c5b0bd.png",
+    "static/media/blackjack-1.png": "/static/media/blackjack-1.70ee671d3fc1fb2d297d.png",
+    "static/media/BG.svg": "/static/media/BG.4c1614ee85ecbda1ffd9.svg",
+    "index.html": "/index.html",
+    "main.e7d42330.css.map": "/static/css/main.e7d42330.css.map",
+    "main.92dde90c.js.map": "/static/js/main.92dde90c.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7d42330.css",
+    "static/js/main.92dde90c.js"
+  ]
+}
