@@ -44,6 +44,20 @@ body {
   border: 1px solid #36343459;
 }
 
+.cv-btn a {
+  color: #ffffff;
+}
+
+.cv-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.cv-link:hover {
+  color: #000000;
+}
+
 .nav-link {
   color: rgb(251 251 251 / 82%);
   transition: 0.5s;
@@ -122,6 +136,14 @@ body {
     background: #ffffff;
     color: #423d3d;
     border: 1px solid #36343459;
+  }
+
+  .cv-btn a {
+    color: #ffffff;
+  }
+
+  .cv-link {
+    color: #ffffff;
   }
 
   .nav-link {

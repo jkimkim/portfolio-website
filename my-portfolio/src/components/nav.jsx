@@ -54,7 +54,9 @@ class Navcontainer extends Component {
                 </li>
               </ul>
               <button className="cv-btn px-2" type="button">
+                <a className="cv-link" href="https://drive.google.com/file/d/1jeGk_m6NuZ7Xt4L3SiIQA2B316EeKAQ2/view?usp=sharing" target="_blank" rel="noreferrer">
                 Download CV
+                </a>
                 <FontAwesomeIcon
                   icon="fa-solid fa-download"
                   className="ps-2 d-ico"
