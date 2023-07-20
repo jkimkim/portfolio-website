@@ -15,6 +15,32 @@ body {
   --bs-nav-pills-link-active-color: #8f7d7d;
 }
 
+.navbar {
+  background-color: #1d222a33;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid #ffffff1a;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  transition: 0.5s;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+}
+
+.navbar:hover {
+  background-color: #1d222a;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid #ffffff1a;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  transition: 0.5s;
+}
+
 .p-name {
   font-family: cursive;
   font-weight: bolder;
@@ -151,18 +177,41 @@ body {
     transition: 0.5s;
   }
   #navbarNav {
+    /* display: flex; */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .cv-btn {
+    /* Remove the absolute positioning and right property */
+    position: relative;
+    right: auto;
+    top: auto;
+    /* Adjust the margin and padding for proper spacing */
+    /* margin: 10px 0; */
+    padding: 5px 10px;
+    /* Update the transition duration for smoother animation */
+    transition: 2s;
+    justify-self: center;
+  }
+  .show {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .cv-btn {
-    position: absolute;
-    top: 23px;
-    right: 70px;
-    transition: 2s;
+  .collapsing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
