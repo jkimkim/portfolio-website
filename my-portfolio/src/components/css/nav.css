@@ -124,7 +124,7 @@ body {
 
   .cv-btn {
     background: #00000073;
-    color: #ffffff;
+    color: #cfe5f7;
     border: 1px solid #ffffff45;
     border-radius: 5px;
     padding: 2px;
@@ -133,13 +133,13 @@ body {
   }
 
   .cv-btn:hover {
-    background: #ffffff;
+    background: #cfe5f7;
     color: #423d3d;
     border: 1px solid #36343459;
   }
 
   .cv-btn a {
-    color: #ffffff;
+    color: #cfe5f7;
   }
 
   .cv-link {

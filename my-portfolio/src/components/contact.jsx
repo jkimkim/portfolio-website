@@ -24,8 +24,7 @@ class Contact extends Component {
                   <div className="contact-text">
                     <h3>Email</h3>
                     <p>
-                        <a href="mailto:
-                        ">Email</a>
+                        <a href="mailto:wairia21@yahoo.com" target="_blank" rel="noreferrer">Email</a>
                     </p>
                   </div>
                 </div>
@@ -35,7 +34,7 @@ class Contact extends Component {
                   </div>
                   <div className="contact-text">
                     <h3>Phone</h3>
-                    <p>Phone</p>
+                    <a href="tel:+254 790448571">Call me</a>
                   </div>
                 </div>
                 <div className="contact-item">
@@ -45,7 +44,7 @@ class Contact extends Component {
                   <div className="contact-text">
                     <h3>LinkedIn</h3>
                     <p>
-                        <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/john-kimiti-9322201a2/" target="_blank" rel="noreferrer">LinkedIn</a>
                     </p>
                   </div>
                 </div>
@@ -56,7 +55,7 @@ class Contact extends Component {
                   <div className="contact-text">
                     <h3>Github</h3>
                     <p>
-                        <a href="
+                        <a href="https://github.com/jkimkim
                         " target="_blank" rel="noopener noreferrer">Github</a>
                     </p>
                   </div>

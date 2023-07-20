@@ -40,10 +40,20 @@
     align-items: center;
     margin-bottom: 1.5rem;
   }
+
+  .contact-item a {
+    color: rgb(189, 189, 189);
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+    .contact-item a:hover {
+        color: #cfe5f7;
+    }
   
   .icon {
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #cfe5f7;
     background: linear-gradient(45deg, #1a89bc, #606966c5);
     width: 35px;
     height: 35px;
@@ -54,7 +64,7 @@
   }
   
   .contact-text {
-    color: #ffffff;
+    color: #cfe5f7;
   }
   
   .contact-text h3 {
@@ -79,7 +89,7 @@
   
   .contact-form label {
     font-weight: bold;
-    color: antiquewhite;
+    color: #cfe5f7;
   }
   
   .contact-form input,
@@ -96,7 +106,7 @@
   
   .contact-form button {
     background-color: #333;
-    color: #fff;
+    color: #cfe5f7;
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 3px;

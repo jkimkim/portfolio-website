@@ -9,6 +9,7 @@ import MyWorks from './components/myWorks';
 import Projects from './components/projects';
 import reportWebVitals from './reportWebVitals';
 import Contact from './components/contact';
+import Footer from './components/Footer';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -25,6 +26,7 @@ root.render(
     <MyWorks/>
     <Projects/>
     <Contact/>
+    <Footer/>
   </React.StrictMode>
 );
 

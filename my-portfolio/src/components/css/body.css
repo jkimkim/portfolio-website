@@ -17,7 +17,7 @@
 
 body{
     background-color: #1D222A;
-    color: antiquewhite;
+    color: #cfe5f7;
 }
 
 .body-top {
@@ -132,7 +132,7 @@ body{
     height: 35px;
     border-radius: 5px;
     background: linear-gradient(45deg, #1a89bc, #606966c5);
-    color: linen;
+    color: #cfe5f7;
     text-align: center;
     margin-bottom: 0.5rem;
     transition: 1s;
@@ -155,7 +155,7 @@ body{
 
 .footer{
     background-color: #1D222A;
-    color: antiquewhite;
+    color: #cfe5f7;
     padding: 1rem 0 1rem 0;
 }
 
@@ -222,7 +222,7 @@ body{
 
 .my-works{
     background-color: #1D222A;
-    color: antiquewhite;
+    color: #cfe5f7;
     padding: 1rem 0 1rem 0;
 }
 
@@ -266,7 +266,7 @@ body{
 .my-works .works .work{
     width: 30%;
     background-color: #1D222A;
-    color: antiquewhite;
+    color: #cfe5f7;
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: 0 0 10px 0 #00ADB5;
@@ -340,7 +340,7 @@ body{
 
 .bg-2{
     background-color: #1D222A;
-    color: antiquewhite;
+    color: #cfe5f7;
     padding: 1rem 0 3rem 0;
 }
 
@@ -422,7 +422,7 @@ body{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    color: #ffffff;
+    color: #cfe5f7;
     margin: 10px;
     padding: 25px 30px;
     backdrop-filter: blur(5px);
@@ -891,5 +891,31 @@ body{
       margin-bottom: 0;
       color: #a1a4a8;
     }
+  }
+  
+  .footer__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .footer__social a {
+    font-size: 24px;
+    color: #cfe5f7;
+    margin: 0 10px;
+  }
+  
+  .footer__social a:hover {
+    color: #00adb5;
+  }
+  
+  .footer__copyright {
+    text-align: center;
+  }
+  
+  .footer__copyright p {
+    font-size: 14px;
+    margin: 0;
   }
   
