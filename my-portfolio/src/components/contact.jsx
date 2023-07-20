@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import "./css/Contact.css";
 class Contact extends Component {
   state = {};
   render() {
@@ -11,7 +12,7 @@ class Contact extends Component {
         <div className="container">
           <div className="contact">
             <h1>Contact Me</h1>
-            <h2>Get in touch</h2>
+            <h2>Lets get in touch</h2>
           </div>
           <div className="row">
             <div className="col-md-6">
@@ -67,21 +68,22 @@ class Contact extends Component {
                 <form>
                   <div className="form-group">
                     <label htmlFor="name">Name</label>
-                    <input type="text" className="form-control" />
+                    <input type="text" className="form-control" id='name' />
                   </div>
                   <div className="form-group">
                     <label htmlFor="email">Email</label>
-                    <input type="email" className="form-control" />
+                    <input type="email" className="form-control" id='email' />
                   </div>
                   <div className="form-group">
                     <label htmlFor="subject">Subject</label>
-                    <input type="text" className="form-control" />
+                    <input type="text" className="form-control" id='subject' />
                   </div>
                   <div className="form-group">
                     <label htmlFor="message">Message</label>
                     <textarea
                       className="form-control"
                       rows="5"
+                      id="message"
                     ></textarea>
                   </div>
                   <button type="submit" className="btn">

@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import jkimtech from "./css/assets/jkimtech.png";
+import tomioes from "./css/assets/tomioes.png";
 class Projects extends Component {
   state = {};
   render() {
@@ -9,20 +11,24 @@ class Projects extends Component {
             <h1>Recent Works</h1>
           </div>
           <div className="proj">
-            <div className="col-md-4">
+            <div className="col-md-4"
+            onClick={() => window.open("https://jkimtech.web.app", "_blank")}
+            >
               <div className="proj-pic">
                 <img
-                  src="https://www.freepnglogos.com/uploads/logo-portfolio-png/logo-portfolio-portfolio-logo-png-0.png"
+                  src={jkimtech}
                   alt="work"
                 />
                 <h3>jkimtech</h3>
                 <p>personal project</p>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4"
+            onClick={() => window.open("https://tomioes.wordpress.com", "_blank")}
+            >
               <div className="proj-pic">
                 <img
-                  src="https://www.freepnglogos.com/uploads/logo-portfolio-png/logo-portfolio-portfolio-logo-png-0.png"
+                  src={tomioes}
                   alt="work"
                 />
                 <h3>Tomioes</h3>
