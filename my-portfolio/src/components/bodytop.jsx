@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "./css/assets/blackjack-1.png";
+import logo from "./css/assets/me.png";
 import "./css/body.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -14,9 +14,9 @@ class Bodytop extends Component {
           <div className="row">
             <div className="">
               <div className="body-top">
-                <h1 className="hellotxt">HELLO</h1>
                 <div className="aboutme">
                   <div className="description">
+                  <h1 className="hellotxt">HELLO</h1>
                   <h1 className="fw-bold">
                     I'm <br />
                     <span className="f-name">John</span>{" "}

@@ -7,8 +7,9 @@ import Navcontainer from './components/nav';
 import Bodytop from './components/bodytop';
 import MyWorks from './components/myWorks';
 import Projects from './components/projects';
-import Contactme from './components/contactme';
 import reportWebVitals from './reportWebVitals';
+import Contact from './components/contact';
+import Footer from './components/Footer';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -24,7 +25,8 @@ root.render(
     <Bodytop/>
     <MyWorks/>
     <Projects/>
-    <Contactme/>
+    <Contact/>
+    <Footer/>
   </React.StrictMode>
 );
 
