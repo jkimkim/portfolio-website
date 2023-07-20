@@ -9,7 +9,7 @@ class Bodytop extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container bg">
+        <div className="container bg" id="about">
           {/* <img className="bg" src={Bg} alt="background" /> */}
           <div className="row">
             <div className="">

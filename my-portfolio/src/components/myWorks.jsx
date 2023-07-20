@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons';
-import {faMobileScreen} from '@fortawesome/free-solid-svg-icons';
 
 class MyWorks extends Component {
     state = {  }
     render() { 
         return ( 
             <React.Fragment>
-                <div className="container">
+                <div className="container" id='portfolio'>
                     <div className="row">
                         <div className="col-md-12">
                             <div className="my-works">

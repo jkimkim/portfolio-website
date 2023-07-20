@@ -16,21 +16,21 @@ const Footer = () => {
               <a
                 href="https://www.linkedin.com/in/john-kimiti-9322201a2/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
               <a
                 href="https://github.com/jkimkim"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faGithub} />
               </a>
               <a
                 href="mailto:wairia21@yahoo.com"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>

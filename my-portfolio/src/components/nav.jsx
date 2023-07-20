@@ -9,9 +9,9 @@ class Navcontainer extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg" id="home">
           <div className="container-fluid">
-            <a className="branding navbar-brand" href="#">
+            <a className="branding navbar-brand" href="#home">
               <img className="logo" src={logo} alt="logo" />
               <span className="p-name">John Kimiti</span>
             </a>
@@ -32,23 +32,23 @@ class Navcontainer extends Component {
                   <a
                     className="nav-link active"
                     aria-current="page"
-                    href="#"
+                    href="#home"
                   >
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#about">
                     About
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#portfolio">
                     Portfolio
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#contact">
                     Contact
                   </a>
                 </li>

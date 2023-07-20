@@ -9,7 +9,7 @@ class Contact extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container">
+        <div className="container" id='contact'>
           <div className="contact">
             <h1>Contact Me</h1>
             <h2>Lets get in touch</h2>
@@ -56,7 +56,7 @@ class Contact extends Component {
                     <h3>Github</h3>
                     <p>
                         <a href="https://github.com/jkimkim
-                        " target="_blank" rel="noopener noreferrer">Github</a>
+                        " target="_blank" rel="noreferrer">Github</a>
                     </p>
                   </div>
                 </div>
